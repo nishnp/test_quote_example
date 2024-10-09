@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@cap-js/hana": "^1.2.0",
+    "@sap/hana-client": "2.22.29",
+    "@sap/cds": "^8.2.1",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/eslint-plugin-cds": "^3",
+    "eslint": "^9"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  }
+}
